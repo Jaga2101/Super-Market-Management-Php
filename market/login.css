@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Raleway,sans-serif ;
+
+}
+body{
+    background: linear-gradient(200deg,#fff,white,rgb(16, 163, 216),rgb(5, 174, 231));
+   /* display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+header{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'abrill fatface',cursive;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    border: outset;
+    border-radius: 10px 20px 10px 40px;
+   /* background: linear-gradient(200deg,#fff,white,rgb(16, 163, 216),rgb(5, 174, 231));*/
+    background: linear-gradient(200deg,rgb(16, 163, 216),#fff,white);
+    justify-content: space-evenly;
+}
+form input,button{
+    border-color: rgb(138, 187, 219);
+    border-radius:  10px;
+    width: 200px;
+    height: 30px;
+}
+form button{
+    border-color: rgb(138, 187, 219);
+    border-radius:  10px;
+    width: 200px;
+    height: 30px;
+    background:  linear-gradient(200deg,#fff,rgb(16, 163, 216),rgb(5, 174, 231),#fff);
+}
+form h2,label{
+    font-weight: bold;
+    font-family: 'abrill fatface',cursive;   
+}

@@ -1,0 +1,21 @@
+.alert{
+    padding: 5px;
+    background: linear-gradient(250deg,rgb(7, 168, 243),rgb(178, 230, 241),rgb(64, 173, 237));
+   /* background-color: #e67e15;*/
+    color: black;
+    width: 500px;
+    height: 25px;
+    border-radius: 10px 20px;
+  }  
+  .closebtn{
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 25px;
+    line-height: 25px;
+    cursor: pointer;
+  }
+  .closebtn:hover{
+    color: black;
+  }
